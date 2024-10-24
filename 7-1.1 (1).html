@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Text Links</title>
+      <style>
+         a {
+            padding: 5px;
+            text-align: center;
+            border: 5px solid cornsilk;
+            background: pink;
+         }
+         
+         a.state {
+            padding: 10px;
+            font-family: Segoe UI;
+            color: black;
+            text-decoration: none;
+         }
+         
+         a.state:link {
+            background: turquoise;
+         }
+         
+         a.state:visited {
+            background: beige;
+         }
+         
+         a.state:hover {
+            background: lightgreen;
+         }
+         
+         a.state:active {
+            background: lightblue;
+         }
+      </style>
+   </head>
+   <body>
+         Part 1 <br><br>
+         <a href="https://theuselessweb.com/">Try clicking this link.</a>
+         
+         <br><br><br>
+         
+         Part 2 <br><br>
+         <a class="state" href="https://longdogechallenge.com/">
+            This link is not yet visited.
+         </a>
+   </body>
+</html>
